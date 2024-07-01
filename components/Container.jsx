@@ -18,7 +18,7 @@ export const Container = ({
   return (
     <Element
       {...rest}
-      className={`px-5 w-full max-w-screen-md m-auto ${className}`}
+      className={`px-5 w-full bg-black max-w-screen-md m-auto ${className}`}
     >
       {children}
     </Element>
